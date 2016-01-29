@@ -29,3 +29,7 @@ Route::get('/', function () {
 Route::group(['middleware' => ['web']], function () {
     //
 });
+
+Route::get('abuot', function() {
+	return 'About Page';
+});
