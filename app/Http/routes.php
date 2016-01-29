@@ -30,6 +30,6 @@ Route::group(['middleware' => ['web']], function () {
     //
 });
 
-Route::get('abuot', function() {
+Route::get('about', function() {
 	return 'About Page';
 });
