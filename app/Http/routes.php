@@ -33,3 +33,7 @@ Route::group(['middleware' => ['web']], function () {
 Route::get('abuot', function() {
 	return 'About Page';
 });
+
+Route::get ('reporting', function() {
+	return 'Reporting feature';
+});
