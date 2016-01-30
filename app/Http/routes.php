@@ -37,3 +37,5 @@ Route::get('about', function() {
 Route::get ('reporting', function() {
 	return 'Reporting feature';
 });
+
+Route::resource('reports', 'ReportsController');
